@@ -237,7 +237,7 @@ setup(
         "": "src",
     },
     package_data={
-        "snowflake.connector": ["*.pem", "*.json", "*.rst", "LICENSE.txt"],
+        "snowflake.connector": ["*.pem", "*.json", "*.rst", "LICENSE.txt", "py.typed"],
     },
     entry_points={
         "console_scripts": [
