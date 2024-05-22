@@ -46,7 +46,7 @@ from .version import VERSION
 logging.getLogger(__name__).addHandler(NullHandler())
 
 
-def Connect(**kwargs):
+def Connect(**kwargs) -> SnowflakeConnection:
     return SnowflakeConnection(**kwargs)
 
 
